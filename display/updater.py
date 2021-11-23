@@ -16,10 +16,12 @@ class DisplayUpdater:
         self._session.headers['Authorization'] = f"Bearer {ha_api_key}"
 
     def update(self):
+        logger.info("Updating display data...")
         self._get_electric_cost()
         self._get_forecast()
         self._get_daily_low_high()
         self._get_daily_energy_usage()
+        logger.info("Done")
 
     def _get_electric_cost(self):
         r = self._session.get(f"{self.ha_url}/states/sensor.comed_5_minute_price")

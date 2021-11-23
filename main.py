@@ -56,8 +56,10 @@ while True:
         image = drawer.get_image()
 
         if DISPLAY_TO_EINK:
+            logging.info("Displaying to e-ink")
             epd.display_frame(image.rotate(-90, expand=True))
         else:
+            logging.info("Showing image")
             image.show()
 
         time.sleep(5*60)

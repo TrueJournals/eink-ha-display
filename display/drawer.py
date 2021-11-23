@@ -45,6 +45,7 @@ class DisplayDrawer:
         return None
 
     def get_image(self):
+        logger.info("Drawing image...")
         image = Image.new('1', (self.height, self.width), 255)
         draw = ImageDraw.Draw(image)
 
@@ -59,6 +60,7 @@ class DisplayDrawer:
         x_pos = self._draw_electric_cost(image, draw, x_pos)
         x_pos = self._draw_energy_usage(image, draw, x_pos)
 
+        logger.info("Done")
         return image
 
     def _draw_low_temperature(self, image, draw, x_pos):
