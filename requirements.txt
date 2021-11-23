@@ -1,0 +1,4 @@
+requests
+Pillow
+cairosvg
+git+https://github.com/elad661/rpi_epd2in7@master#egg=rpi_epd2in7

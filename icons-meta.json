@@ -1,0 +1,1138 @@
+[
+  {
+    "id": "F5E24182-366C-4D23-BA0E-8D2E25B88230",
+    "name": "broadcast",
+    "codepoint": "F1720",
+    "aliases": [
+      "signal"
+    ],
+    "tags": [
+      "Weather"
+    ],
+    "author": "Google",
+    "version": "5.9.55"
+  },
+  {
+    "id": "E1851914-B294-4FC0-A94B-C5C8D0F52DCB",
+    "name": "broadcast-off",
+    "codepoint": "F1721",
+    "aliases": [
+      "signal-off"
+    ],
+    "tags": [
+      "Weather"
+    ],
+    "author": "Google",
+    "version": "5.9.55"
+  },
+  {
+    "id": "CF07C502-388E-4A65-BD89-FACCFD00C245",
+    "name": "cloud",
+    "codepoint": "F015F",
+    "aliases": [
+      "wb-cloudy"
+    ],
+    "tags": [
+      "Cloud",
+      "Weather"
+    ],
+    "author": "Google",
+    "version": "1.5.54"
+  },
+  {
+    "id": "4ACCBA06-78DB-492F-98F6-08AEE743744A",
+    "name": "cloud-alert",
+    "codepoint": "F09E0",
+    "aliases": [
+      "cloud-warning"
+    ],
+    "tags": [
+      "Alert / Error",
+      "Cloud",
+      "Weather"
+    ],
+    "author": "TheChilliPL",
+    "version": "2.5.94"
+  },
+  {
+    "id": "6EBE020D-405B-4E36-8B47-CAC6FAF1166C",
+    "name": "cloud-outline",
+    "codepoint": "F0163",
+    "aliases": [
+      "cloud-queue"
+    ],
+    "tags": [
+      "Cloud",
+      "Weather"
+    ],
+    "author": "Google",
+    "version": "1.5.54"
+  },
+  {
+    "id": "EF3D6923-793B-410C-B349-90A6A338F06C",
+    "name": "flash",
+    "codepoint": "F0241",
+    "aliases": [
+      "lightning-bolt",
+      "flash-on",
+      "electricity"
+    ],
+    "tags": [
+      "Weather"
+    ],
+    "author": "Google",
+    "version": "1.5.54"
+  },
+  {
+    "id": "59E94B6E-589B-4DB9-AAB7-397E17E2B272",
+    "name": "flash-alert",
+    "codepoint": "F0EF7",
+    "aliases": [
+      "lightning-alert",
+      "storm-advisory"
+    ],
+    "tags": [
+      "Weather",
+      "Alert / Error"
+    ],
+    "author": "Michael Irigoyen",
+    "version": "3.8.95"
+  },
+  {
+    "id": "2770517A-B0A3-4AC5-A6E6-6EFD9DA2C3E5",
+    "name": "flash-alert-outline",
+    "codepoint": "F0EF8",
+    "aliases": [
+      "lightning-alert-outline",
+      "storm-advisory-outline"
+    ],
+    "tags": [
+      "Weather",
+      "Alert / Error"
+    ],
+    "author": "Michael Irigoyen",
+    "version": "3.8.95"
+  },
+  {
+    "id": "088BF56F-9281-43DB-879E-EB5158428EB7",
+    "name": "flash-outline",
+    "codepoint": "F06D5",
+    "aliases": [
+      "lightning-bolt-outline"
+    ],
+    "tags": [
+      "Weather"
+    ],
+    "author": "Michael Irigoyen",
+    "version": "1.8.36"
+  },
+  {
+    "id": "AC4506FC-3368-416C-8E9A-BADD6F66E7D5",
+    "name": "home-flood",
+    "codepoint": "F0EFA",
+    "aliases": [],
+    "tags": [
+      "Weather",
+      "Home Automation"
+    ],
+    "author": "Michael Irigoyen",
+    "version": "3.8.95"
+  },
+  {
+    "id": "3633613A-B8A7-49D0-8C1B-5415EC76F426",
+    "name": "looks",
+    "codepoint": "F0344",
+    "aliases": [
+      "rainbow"
+    ],
+    "tags": [
+      "Weather",
+      "Color"
+    ],
+    "author": "Google",
+    "version": "1.5.54"
+  },
+  {
+    "id": "F9A81054-5651-47DE-9507-E0743AE78E77",
+    "name": "moon-first-quarter",
+    "codepoint": "F0F61",
+    "aliases": [],
+    "tags": [
+      "Weather"
+    ],
+    "author": "Michael Irigoyen",
+    "version": "3.9.97"
+  },
+  {
+    "id": "536FA8E5-13DF-49A6-9C43-9874847AA01A",
+    "name": "moon-full",
+    "codepoint": "F0F62",
+    "aliases": [],
+    "tags": [
+      "Weather"
+    ],
+    "author": "Michael Irigoyen",
+    "version": "3.9.97"
+  },
+  {
+    "id": "690C3986-7EEB-4DD2-87EE-BEB93A917B14",
+    "name": "moon-last-quarter",
+    "codepoint": "F0F63",
+    "aliases": [],
+    "tags": [
+      "Weather"
+    ],
+    "author": "Michael Irigoyen",
+    "version": "3.9.97"
+  },
+  {
+    "id": "1F3CFDCC-7391-4AA6-994C-DCC6F3D28A46",
+    "name": "moon-new",
+    "codepoint": "F0F64",
+    "aliases": [],
+    "tags": [
+      "Weather"
+    ],
+    "author": "Michael Irigoyen",
+    "version": "3.9.97"
+  },
+  {
+    "id": "B324215D-A609-4B93-A859-1A0A24391C01",
+    "name": "moon-waning-crescent",
+    "codepoint": "F0F65",
+    "aliases": [],
+    "tags": [
+      "Weather"
+    ],
+    "author": "Michael Irigoyen",
+    "version": "3.9.97"
+  },
+  {
+    "id": "B03A16BE-0679-4635-B2F7-6553C3761211",
+    "name": "moon-waning-gibbous",
+    "codepoint": "F0F66",
+    "aliases": [],
+    "tags": [
+      "Weather"
+    ],
+    "author": "Michael Irigoyen",
+    "version": "3.9.97"
+  },
+  {
+    "id": "FAE0DF65-BA66-4F45-B246-35EFD1DF6FF2",
+    "name": "moon-waxing-crescent",
+    "codepoint": "F0F67",
+    "aliases": [],
+    "tags": [
+      "Weather"
+    ],
+    "author": "Michael Irigoyen",
+    "version": "3.9.97"
+  },
+  {
+    "id": "6DF419CE-770C-4662-8681-5D8ADE9C789E",
+    "name": "moon-waxing-gibbous",
+    "codepoint": "F0F68",
+    "aliases": [],
+    "tags": [
+      "Weather"
+    ],
+    "author": "Michael Irigoyen",
+    "version": "3.9.97"
+  },
+  {
+    "id": "5675A747-D467-473E-9A1D-1C61E1B5C619",
+    "name": "snowflake",
+    "codepoint": "F0717",
+    "aliases": [],
+    "tags": [
+      "Weather",
+      "Holiday",
+      "Automotive"
+    ],
+    "author": "Google",
+    "version": "1.8.36"
+  },
+  {
+    "id": "5F856EA3-F987-439D-AAFF-ED545ECBBA75",
+    "name": "snowflake-alert",
+    "codepoint": "F0F29",
+    "aliases": [
+      "cold-alert",
+      "snow-advisory",
+      "freeze-advisory"
+    ],
+    "tags": [
+      "Weather",
+      "Alert / Error"
+    ],
+    "author": "Michael Irigoyen",
+    "version": "3.8.95"
+  },
+  {
+    "id": "017BAEB6-E5B4-4BEF-8CA3-D0ABA689DE2C",
+    "name": "snowflake-melt",
+    "codepoint": "F12CB",
+    "aliases": [
+      "defrost"
+    ],
+    "tags": [
+      "Weather"
+    ],
+    "author": "Michael Irigoyen",
+    "version": "4.8.95"
+  },
+  {
+    "id": "C80A9F84-F736-4E92-8D93-05F9F72D32B8",
+    "name": "snowflake-off",
+    "codepoint": "F14E3",
+    "aliases": [],
+    "tags": [
+      "Weather"
+    ],
+    "author": "Michael Irigoyen",
+    "version": "5.4.55"
+  },
+  {
+    "id": "50B6D484-E7DC-4B88-9981-9C962C9A9EB6",
+    "name": "snowflake-variant",
+    "codepoint": "F0F2A",
+    "aliases": [],
+    "tags": [
+      "Holiday",
+      "Weather"
+    ],
+    "author": "Michael Irigoyen",
+    "version": "3.8.95"
+  },
+  {
+    "id": "1F513D40-444E-475D-9C1F-E5A95CE61A02",
+    "name": "sun-compass",
+    "codepoint": "F19A5",
+    "aliases": [
+      "sun-azimuth",
+      "solar-compass",
+      "solar-asimuth"
+    ],
+    "tags": [
+      "Weather"
+    ],
+    "author": "Michael Irigoyen",
+    "version": "6.5.95"
+  },
+  {
+    "id": "2294E545-CE17-4605-8DBD-FFAE9CFDFED6",
+    "name": "sun-snowflake",
+    "codepoint": "F1796",
+    "aliases": [
+      "hot-cold",
+      "heat-cool"
+    ],
+    "tags": [
+      "Weather",
+      "Home Automation"
+    ],
+    "author": "Google",
+    "version": "6.1.95"
+  },
+  {
+    "id": "A92400D5-89B6-46B0-9D55-4980BE45C51D",
+    "name": "sun-thermometer-outline",
+    "codepoint": "F18D7",
+    "aliases": [
+      "external-temperature",
+      "outside-temperature"
+    ],
+    "tags": [
+      "Home Automation",
+      "Weather"
+    ],
+    "author": "Michael Irigoyen",
+    "version": "6.3.95"
+  },
+  {
+    "id": "1A5DE4DC-5B3B-4378-ADB2-5D51AA64896D",
+    "name": "sun-wireless",
+    "codepoint": "F17FE",
+    "aliases": [
+      "weather-sun-wireless",
+      "illuminance",
+      "uv-ray",
+      "ultraviolet"
+    ],
+    "tags": [
+      "Home Automation",
+      "Weather"
+    ],
+    "author": "Michael Irigoyen",
+    "version": "6.1.95"
+  },
+  {
+    "id": "2CFA10C3-9284-4120-B104-D196DBF0BF07",
+    "name": "sun-wireless-outline",
+    "codepoint": "F17FF",
+    "aliases": [
+      "weather-sun-wireless-outline",
+      "illuminance-outline",
+      "uv-ray-outline",
+      "ultraviolet-outline"
+    ],
+    "tags": [
+      "Home Automation",
+      "Weather"
+    ],
+    "author": "Michael Irigoyen",
+    "version": "6.1.95"
+  },
+  {
+    "id": "A94E333D-F8C5-4726-B81A-6DDF4CC37FD0",
+    "name": "temperature-celsius",
+    "codepoint": "F0504",
+    "aliases": [
+      "temperature-centigrade"
+    ],
+    "tags": [
+      "Weather"
+    ],
+    "author": "Austin Andrews",
+    "version": "1.5.54"
+  },
+  {
+    "id": "9A1DF8BB-627A-47C9-B609-BAC145D320DF",
+    "name": "temperature-fahrenheit",
+    "codepoint": "F0505",
+    "aliases": [],
+    "tags": [
+      "Weather"
+    ],
+    "author": "Austin Andrews",
+    "version": "1.5.54"
+  },
+  {
+    "id": "DF9D47EE-157B-4E1E-85CE-A043E5F2AE51",
+    "name": "temperature-kelvin",
+    "codepoint": "F0506",
+    "aliases": [],
+    "tags": [
+      "Weather"
+    ],
+    "author": "Austin Andrews",
+    "version": "1.5.54"
+  },
+  {
+    "id": "F41863ED-B66A-4FF4-B436-0876C8D3665B",
+    "name": "thermometer",
+    "codepoint": "F050F",
+    "aliases": [
+      "temperature"
+    ],
+    "tags": [
+      "Weather",
+      "Home Automation",
+      "Automotive"
+    ],
+    "author": "Austin Andrews",
+    "version": "1.5.54"
+  },
+  {
+    "id": "DB3D5088-E7A7-47AD-87E3-43D5B41BF0C2",
+    "name": "thermometer-alert",
+    "codepoint": "F0E01",
+    "aliases": [
+      "thermometer-warning",
+      "temperature-alert",
+      "temperature-warning"
+    ],
+    "tags": [
+      "Home Automation",
+      "Weather",
+      "Alert / Error"
+    ],
+    "author": "Michael Richins",
+    "version": "3.5.94"
+  },
+  {
+    "id": "D3767EC9-5C06-42A0-B6BE-F5D2CF89FFD1",
+    "name": "thermometer-bluetooth",
+    "codepoint": "F1895",
+    "aliases": [
+      "temperature-bluetooth"
+    ],
+    "tags": [
+      "Weather",
+      "Home Automation",
+      "Automotive"
+    ],
+    "author": "Michael Irigoyen",
+    "version": "6.2.95"
+  },
+  {
+    "id": "C888E2C1-306A-4BCB-821E-5B33AC93572D",
+    "name": "thermometer-chevron-down",
+    "codepoint": "F0E02",
+    "aliases": [
+      "temperature-chevron-down",
+      "temperature-decrease",
+      "thermometer-decrease"
+    ],
+    "tags": [
+      "Home Automation",
+      "Weather"
+    ],
+    "author": "Michael Richins",
+    "version": "3.5.94"
+  },
+  {
+    "id": "79E7C071-7AEE-48B1-802E-922925E94247",
+    "name": "thermometer-chevron-up",
+    "codepoint": "F0E03",
+    "aliases": [
+      "temperature-chevron-up",
+      "temperature-increase",
+      "thermometer-increase"
+    ],
+    "tags": [
+      "Home Automation",
+      "Weather"
+    ],
+    "author": "Michael Richins",
+    "version": "3.5.94"
+  },
+  {
+    "id": "DF51BF5D-831D-4FD1-8786-498CAC97DBB6",
+    "name": "thermometer-high",
+    "codepoint": "F10C2",
+    "aliases": [
+      "temperature-high"
+    ],
+    "tags": [
+      "Home Automation",
+      "Weather"
+    ],
+    "author": "Michael Richins",
+    "version": "4.2.95"
+  },
+  {
+    "id": "A9FC898C-8CC5-44F2-822D-05C5625E95C8",
+    "name": "thermometer-lines",
+    "codepoint": "F0510",
+    "aliases": [
+      "temperature-lines"
+    ],
+    "tags": [
+      "Weather",
+      "Home Automation"
+    ],
+    "author": "Austin Andrews",
+    "version": "1.5.54"
+  },
+  {
+    "id": "DBD8C754-85C4-43C4-BEA8-BCFEDB30B382",
+    "name": "thermometer-low",
+    "codepoint": "F10C3",
+    "aliases": [
+      "temperature-low"
+    ],
+    "tags": [
+      "Home Automation",
+      "Weather"
+    ],
+    "author": "Michael Richins",
+    "version": "4.2.95"
+  },
+  {
+    "id": "310F50E9-D74E-4753-A6D8-60EDBFC332B7",
+    "name": "thermometer-minus",
+    "codepoint": "F0E04",
+    "aliases": [
+      "temperature-minus",
+      "thermometer-decrease",
+      "temperature-decrease"
+    ],
+    "tags": [
+      "Home Automation",
+      "Weather"
+    ],
+    "author": "Michael Richins",
+    "version": "3.5.94"
+  },
+  {
+    "id": "BF73A396-DB1C-46BC-8078-3CF0D7E0277F",
+    "name": "thermometer-off",
+    "codepoint": "F1531",
+    "aliases": [
+      "temperature-off"
+    ],
+    "tags": [
+      "Weather"
+    ],
+    "author": "Colton Wiscombe",
+    "version": "5.4.55"
+  },
+  {
+    "id": "511387A0-FD3A-4335-B82E-9C68E02BABDD",
+    "name": "thermometer-plus",
+    "codepoint": "F0E05",
+    "aliases": [
+      "thermometer-add",
+      "thermometer-increase",
+      "temperature-plus",
+      "temperature-add",
+      "temperature-increase"
+    ],
+    "tags": [
+      "Home Automation",
+      "Weather"
+    ],
+    "author": "Michael Richins",
+    "version": "3.5.94"
+  },
+  {
+    "id": "6E7A679E-94FE-4BBD-931F-59B9F25B54EE",
+    "name": "umbrella",
+    "codepoint": "F054A",
+    "aliases": [],
+    "tags": [
+      "Weather"
+    ],
+    "author": "Simran",
+    "version": "1.5.54"
+  },
+  {
+    "id": "20EBCC12-192B-49F0-9641-C61D7B8CD33A",
+    "name": "umbrella-beach",
+    "codepoint": "F188A",
+    "aliases": [],
+    "tags": [
+      "Weather"
+    ],
+    "author": "Google",
+    "version": "6.2.95"
+  },
+  {
+    "id": "C48A57EA-07D6-40E8-9DFC-189BE630A7ED",
+    "name": "umbrella-beach-outline",
+    "codepoint": "F188B",
+    "aliases": [],
+    "tags": [
+      "Weather"
+    ],
+    "author": "Google",
+    "version": "6.2.95"
+  },
+  {
+    "id": "591C025F-58CC-4E5D-9D63-FB43A8B7BA78",
+    "name": "umbrella-closed",
+    "codepoint": "F09B0",
+    "aliases": [],
+    "tags": [
+      "Weather"
+    ],
+    "author": "Simran",
+    "version": "2.4.85"
+  },
+  {
+    "id": "4B483491-948F-4126-9041-DE8D3A4A9A10",
+    "name": "umbrella-closed-outline",
+    "codepoint": "F13E2",
+    "aliases": [],
+    "tags": [
+      "Weather"
+    ],
+    "author": "Simran",
+    "version": "5.1.45"
+  },
+  {
+    "id": "B17B3489-56A4-490D-828E-61A64754EB1A",
+    "name": "umbrella-closed-variant",
+    "codepoint": "F13E1",
+    "aliases": [],
+    "tags": [
+      "Weather"
+    ],
+    "author": "Moma Design Studio",
+    "version": "5.1.45"
+  },
+  {
+    "id": "7E42C11A-74C3-4C0F-BE6B-9794F343925A",
+    "name": "umbrella-outline",
+    "codepoint": "F054B",
+    "aliases": [],
+    "tags": [
+      "Weather"
+    ],
+    "author": "Simran",
+    "version": "1.5.54"
+  },
+  {
+    "id": "2CE24A47-D798-4FFD-A53D-65FE9D452E2F",
+    "name": "water-percent",
+    "codepoint": "F058E",
+    "aliases": [
+      "humidity",
+      "ink-percent"
+    ],
+    "tags": [
+      "Weather",
+      "Home Automation"
+    ],
+    "author": "Simran",
+    "version": "1.5.54"
+  },
+  {
+    "id": "547979BF-6FF4-4CFF-BD55-1E5793C9DAA3",
+    "name": "waves",
+    "codepoint": "F078D",
+    "aliases": [
+      "ocean",
+      "lake",
+      "flood",
+      "water"
+    ],
+    "tags": [
+      "Weather",
+      "Transportation + Water"
+    ],
+    "author": "Michael Irigoyen",
+    "version": "1.9.32"
+  },
+  {
+    "id": "FC4A7A1E-A32E-432E-8EB3-79FFA3E012C1",
+    "name": "waves-arrow-left",
+    "codepoint": "F1859",
+    "aliases": [
+      "tide-in",
+      "water-flow"
+    ],
+    "tags": [
+      "Nature",
+      "Weather"
+    ],
+    "author": "Michael Irigoyen",
+    "version": "6.2.95"
+  },
+  {
+    "id": "69DDD960-779E-4BD9-9B96-B73ED9CAF55D",
+    "name": "waves-arrow-right",
+    "codepoint": "F185A",
+    "aliases": [
+      "tide-out",
+      "water-flow"
+    ],
+    "tags": [
+      "Nature",
+      "Weather"
+    ],
+    "author": "Michael Irigoyen",
+    "version": "6.2.95"
+  },
+  {
+    "id": "9C20E25F-2499-4B5F-BC47-74DDA23F6DC3",
+    "name": "waves-arrow-up",
+    "codepoint": "F185B",
+    "aliases": [
+      "water-evaporation",
+      "humidity",
+      "sea-level-rise",
+      "ocean-level-rise",
+      "climate-change"
+    ],
+    "tags": [
+      "Nature",
+      "Weather"
+    ],
+    "author": "Michael Irigoyen",
+    "version": "6.2.95"
+  },
+  {
+    "id": "9286B6B3-09EE-4465-9A70-D7874E26F3DF",
+    "name": "weather-cloudy",
+    "codepoint": "F0590",
+    "aliases": [],
+    "tags": [
+      "Weather",
+      "Cloud"
+    ],
+    "author": "Austin Andrews",
+    "version": "1.5.54"
+  },
+  {
+    "id": "EF2214BE-8126-4458-A17A-74C58B30C2C5",
+    "name": "weather-cloudy-alert",
+    "codepoint": "F0F2F",
+    "aliases": [],
+    "tags": [
+      "Weather",
+      "Alert / Error",
+      "Cloud"
+    ],
+    "author": "Michael Irigoyen",
+    "version": "3.8.95"
+  },
+  {
+    "id": "522BA775-D569-4615-AABE-40B9E638EA18",
+    "name": "weather-cloudy-arrow-right",
+    "codepoint": "F0E6E",
+    "aliases": [],
+    "tags": [
+      "Weather",
+      "Cloud"
+    ],
+    "author": "Michael Irigoyen",
+    "version": "3.6.95"
+  },
+  {
+    "id": "D7526077-1254-4F32-9496-3B8E5D957F0F",
+    "name": "weather-cloudy-clock",
+    "codepoint": "F18F6",
+    "aliases": [
+      "weather-history",
+      "weather-time",
+      "weather-date"
+    ],
+    "tags": [
+      "Weather"
+    ],
+    "author": "Michael Irigoyen",
+    "version": "6.3.95"
+  },
+  {
+    "id": "9E1AC9CA-0FA4-44C6-BA5D-2EB3CED4899D",
+    "name": "weather-fog",
+    "codepoint": "F0591",
+    "aliases": [
+      "weather-mist"
+    ],
+    "tags": [
+      "Weather"
+    ],
+    "author": "Austin Andrews",
+    "version": "1.5.54"
+  },
+  {
+    "id": "BED775CF-13BD-4D5A-A06F-7B026E820CB1",
+    "name": "weather-hail",
+    "codepoint": "F0592",
+    "aliases": [],
+    "tags": [
+      "Weather"
+    ],
+    "author": "Austin Andrews",
+    "version": "1.5.54"
+  },
+  {
+    "id": "87410436-C351-4FF7-91E4-9A5F52D49F69",
+    "name": "weather-hazy",
+    "codepoint": "F0F30",
+    "aliases": [],
+    "tags": [
+      "Weather"
+    ],
+    "author": "Michael Irigoyen",
+    "version": "3.8.95"
+  },
+  {
+    "id": "880967C4-85F9-4953-A6D0-73C9370BC987",
+    "name": "weather-hurricane",
+    "codepoint": "F0898",
+    "aliases": [],
+    "tags": [
+      "Weather"
+    ],
+    "author": "Michael Richins",
+    "version": "2.1.99"
+  },
+  {
+    "id": "6AF7BD8A-088F-4B07-806D-7456EB382D76",
+    "name": "weather-lightning",
+    "codepoint": "F0593",
+    "aliases": [
+      "weather-storm",
+      "weather-thunder",
+      "weather-flash"
+    ],
+    "tags": [
+      "Weather"
+    ],
+    "author": "Austin Andrews",
+    "version": "1.5.54"
+  },
+  {
+    "id": "F69033FD-E6F0-48E7-ADA7-7CDF71B1673C",
+    "name": "weather-lightning-rainy",
+    "codepoint": "F067E",
+    "aliases": [
+      "weather-thunder-rainy",
+      "weather-storm"
+    ],
+    "tags": [
+      "Weather"
+    ],
+    "author": "Austin Andrews",
+    "version": "1.7.12"
+  },
+  {
+    "id": "1C3BA3AB-E86E-481B-A3C2-867B37A6E55A",
+    "name": "weather-night",
+    "codepoint": "F0594",
+    "aliases": [
+      "moon-and-stars",
+      "night-sky"
+    ],
+    "tags": [
+      "Weather",
+      "Holiday"
+    ],
+    "author": "Austin Andrews",
+    "version": "1.5.54"
+  },
+  {
+    "id": "19D690AD-38F9-45CF-A092-D62A53098A68",
+    "name": "weather-night-partly-cloudy",
+    "codepoint": "F0F31",
+    "aliases": [],
+    "tags": [
+      "Weather",
+      "Cloud"
+    ],
+    "author": "Michael Irigoyen",
+    "version": "3.8.95"
+  },
+  {
+    "id": "80E6A6FB-1524-4A7D-9551-17D3BDFBD7C5",
+    "name": "weather-partly-cloudy",
+    "codepoint": "F0595",
+    "aliases": [
+      "weather-partlycloudy"
+    ],
+    "tags": [
+      "Weather",
+      "Cloud"
+    ],
+    "author": "Austin Andrews",
+    "version": "1.5.54"
+  },
+  {
+    "id": "93C1E28D-0C94-4B55-8B26-BACE3F777ECC",
+    "name": "weather-partly-lightning",
+    "codepoint": "F0F32",
+    "aliases": [],
+    "tags": [
+      "Weather"
+    ],
+    "author": "Michael Irigoyen",
+    "version": "3.8.95"
+  },
+  {
+    "id": "B01CFC20-40C4-4647-A20D-0181E5AB4952",
+    "name": "weather-partly-rainy",
+    "codepoint": "F0F33",
+    "aliases": [],
+    "tags": [
+      "Weather"
+    ],
+    "author": "Michael Irigoyen",
+    "version": "3.8.95"
+  },
+  {
+    "id": "0E45DB37-DF54-422B-AE18-2AA35BC54109",
+    "name": "weather-partly-snowy",
+    "codepoint": "F0F34",
+    "aliases": [],
+    "tags": [
+      "Weather"
+    ],
+    "author": "Michael Irigoyen",
+    "version": "3.8.95"
+  },
+  {
+    "id": "CAF9B1D0-1095-4A34-AC07-78C937BDA618",
+    "name": "weather-partly-snowy-rainy",
+    "codepoint": "F0F35",
+    "aliases": [],
+    "tags": [
+      "Weather"
+    ],
+    "author": "Michael Irigoyen",
+    "version": "3.8.95"
+  },
+  {
+    "id": "220955AA-770D-4884-A2ED-F21D2DC2CCDA",
+    "name": "weather-pouring",
+    "codepoint": "F0596",
+    "aliases": [
+      "weather-heavy-rain"
+    ],
+    "tags": [
+      "Weather"
+    ],
+    "author": "Austin Andrews",
+    "version": "1.5.54"
+  },
+  {
+    "id": "45EF5E01-7499-4964-A897-5602F45A822E",
+    "name": "weather-rainy",
+    "codepoint": "F0597",
+    "aliases": [
+      "weather-drizzle",
+      "weather-spitting"
+    ],
+    "tags": [
+      "Weather"
+    ],
+    "author": "Austin Andrews",
+    "version": "1.5.54"
+  },
+  {
+    "id": "88999373-43C5-4851-BBCF-5335D8DFBDA0",
+    "name": "weather-snowy",
+    "codepoint": "F0598",
+    "aliases": [],
+    "tags": [
+      "Weather"
+    ],
+    "author": "Austin Andrews",
+    "version": "1.5.54"
+  },
+  {
+    "id": "D97DA5D6-5A65-4ADB-B124-48C22F32B07A",
+    "name": "weather-snowy-heavy",
+    "codepoint": "F0F36",
+    "aliases": [],
+    "tags": [
+      "Weather"
+    ],
+    "author": "Michael Irigoyen",
+    "version": "3.8.95"
+  },
+  {
+    "id": "0938BCD1-BCF8-4439-B6B3-A590150878BC",
+    "name": "weather-snowy-rainy",
+    "codepoint": "F067F",
+    "aliases": [
+      "weather-sleet"
+    ],
+    "tags": [
+      "Weather"
+    ],
+    "author": "Austin Andrews",
+    "version": "1.7.12"
+  },
+  {
+    "id": "7F85265E-304C-4575-A73F-F0FCF0CA951B",
+    "name": "weather-sunny",
+    "codepoint": "F0599",
+    "aliases": [],
+    "tags": [
+      "Weather"
+    ],
+    "author": "Austin Andrews",
+    "version": "1.5.54"
+  },
+  {
+    "id": "3AACF641-3923-4DBA-9568-0680999A6548",
+    "name": "weather-sunny-alert",
+    "codepoint": "F0F37",
+    "aliases": [
+      "heat-alert",
+      "heat-advisory",
+      "sun-advisory"
+    ],
+    "tags": [
+      "Weather",
+      "Alert / Error"
+    ],
+    "author": "Michael Irigoyen",
+    "version": "3.8.95"
+  },
+  {
+    "id": "2C884CEC-BA06-491D-9A7D-17B8B2E74CA6",
+    "name": "weather-sunny-off",
+    "codepoint": "F14E4",
+    "aliases": [],
+    "tags": [
+      "Weather"
+    ],
+    "author": "Michael Irigoyen",
+    "version": "5.4.55"
+  },
+  {
+    "id": "5EF29669-A342-46D1-AE1B-47917E44311D",
+    "name": "weather-sunset",
+    "codepoint": "F059A",
+    "aliases": [],
+    "tags": [
+      "Weather"
+    ],
+    "author": "Austin Andrews",
+    "version": "1.5.54"
+  },
+  {
+    "id": "032B7D10-9218-4B71-B190-C486832BEF61",
+    "name": "weather-sunset-down",
+    "codepoint": "F059B",
+    "aliases": [],
+    "tags": [
+      "Weather"
+    ],
+    "author": "Austin Andrews",
+    "version": "1.5.54"
+  },
+  {
+    "id": "AC82F126-0773-44CE-A004-77E7DDD130C9",
+    "name": "weather-sunset-up",
+    "codepoint": "F059C",
+    "aliases": [
+      "sunrise"
+    ],
+    "tags": [
+      "Weather"
+    ],
+    "author": "Austin Andrews",
+    "version": "1.5.54"
+  },
+  {
+    "id": "BE149D04-25E9-4CE8-BD75-2D6D49A03FEA",
+    "name": "weather-tornado",
+    "codepoint": "F0F38",
+    "aliases": [],
+    "tags": [
+      "Weather"
+    ],
+    "author": "Michael Irigoyen",
+    "version": "3.8.95"
+  },
+  {
+    "id": "7544E7E7-02F7-405C-9ADB-2E2540B07343",
+    "name": "weather-windy",
+    "codepoint": "F059D",
+    "aliases": [],
+    "tags": [
+      "Weather"
+    ],
+    "author": "Austin Andrews",
+    "version": "1.5.54"
+  },
+  {
+    "id": "454DE99F-BA48-4A7B-A2C6-C0E162065D10",
+    "name": "weather-windy-variant",
+    "codepoint": "F059E",
+    "aliases": [],
+    "tags": [
+      "Weather"
+    ],
+    "author": "Austin Andrews",
+    "version": "1.5.54"
+  },
+  {
+    "id": "0D2A52AA-2CAE-427F-887E-6198929D6855",
+    "name": "windsock",
+    "codepoint": "F15FA",
+    "aliases": [],
+    "tags": [
+      "Weather"
+    ],
+    "author": "Michael Irigoyen",
+    "version": "5.6.55"
+  }
+]
