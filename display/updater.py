@@ -65,10 +65,13 @@ class DisplayUpdater:
             data = r.json()[0]
             energy_sum = 0
             for previous, current in zip(data, data[1:]):
-                if float(current['state']) > float(previous['state']):
-                    energy_sum += float(current['state']) - float(previous['state'])
-                else:
-                    energy_sum += float(current['state'])  # Assumes there was a reset to zero
+                try:
+                    if float(current['state']) > float(previous['state']):
+                        energy_sum += float(current['state']) - float(previous['state'])
+                    else:
+                        energy_sum += float(current['state'])  # Assumes there was a reset to zero
+                except ValueError:
+                    logger.warning("ValueError when calculating energy, skipping point -- %s, %s", current['state'], previous['state'])
             self.data.daily_energy = energy_sum
         else:
             logger.warning("Couldn't get energy usage -- %d", r.status_code)
