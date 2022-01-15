@@ -41,16 +41,21 @@ class DisplayUpdater:
     def _get_daily_low_high(self):
         r = self._session.get(f"{self.ha_url}/states/weather.kpwk_daynight")
         if r.status_code == requests.codes.ok:
-            data = r.json()['attributes']['forecast']
-            today = datetime.datetime.today()
-            for point in (0, 1):
-                if datetime.datetime.fromisoformat(data[point]['datetime']).date() == datetime.datetime.today().date():
-                    if data[point]['daytime']:
-                        self.data.day_lowhigh[1] = data[point]['temperature']
-                        self.data.day_lowhigh_date = today
-                    else:
-                        self.data.day_lowhigh[0] = data[point]['temperature']
-                        self.data.day_lowhigh_date = today
+            try:
+                data = r.json()['attributes']['forecast']
+                today = datetime.datetime.today()
+                for point in (0, 1):
+                    if datetime.datetime.fromisoformat(data[point]['datetime']).date() == datetime.datetime.today().date():
+                        if data[point]['daytime']:
+                            self.data.day_lowhigh[1] = data[point]['temperature']
+                            self.data.day_lowhigh_date = today
+                        else:
+                            self.data.day_lowhigh[0] = data[point]['temperature']
+                            self.data.day_lowhigh_date = today
+            except IndexError:
+                logger.exception("Couldn't get daynight info")
+            except KeyError:
+                logger.exception("Couldn't get daynight info")
         else:
             logger.warning("Couldn't get daynight info -- %d", r.status_code)
 
