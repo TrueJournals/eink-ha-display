@@ -75,7 +75,7 @@ class DisplayUpdater:
         # TODO: Switch to websocket API to use statistics_during_period?
         today = datetime.date.today()
         r = self._session.get(f"{self.ha_url}/history/period/{today.isoformat()}T00:00:00-06:00", params={  # TODO: Timezone
-            "filter_entity_id": "sensor.home_energy_meter_gen5_electric_consumed_kwh",
+            "filter_entity_id": "sensor.home_energy_meter_gen5_electric_consumption_kwh",
             "minimal_response": ""
         })
         if r.status_code == requests.codes.ok:
