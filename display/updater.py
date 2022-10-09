@@ -7,12 +7,24 @@ import datetime
 logger = logging.getLogger(__name__)
 
 
+class TimeoutSession(requests.Session):
+    def __init__(self, timeout=(3.05, 4)):
+        self.timeout = timeout
+        return super().__init__()
+
+    def request(self, *args, **kwargs):
+        if "timeout" not in kwargs:
+            kwargs["timeout"] = self.timeout
+
+        return super().request(*args, **kwargs)
+
+
 class DisplayUpdater:
     def __init__(self, data: DisplayData, ha_url: str, ha_api_key: str):
         self.data = data
         self.ha_url = ha_url
 
-        self._session = requests.Session()
+        self._session = TimeoutSession()
         self._session.headers['Authorization'] = f"Bearer {ha_api_key}"
 
     def update(self):

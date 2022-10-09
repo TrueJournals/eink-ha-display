@@ -62,9 +62,10 @@ while True:
             logging.info("Showing image")
             image.show()
 
-        time.sleep(5*60)
     except KeyboardInterrupt:
         print("Keyboard interrupt, stopping...")
         break
     except:
-        logging.exception("Caught exception during update")
+        logging.exception("Caught exception during update, will try again later")
+
+    time.sleep(5*60)
