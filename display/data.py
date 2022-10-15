@@ -10,4 +10,5 @@ class DisplayData:
     day_lowhigh: List[float] = field(default_factory=lambda: [float("nan"), float("nan")])
     day_lowhigh_date: Optional[datetime] = None
     daily_energy: float = 0.0
+    soil_moisture: float = float("nan")
 

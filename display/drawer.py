@@ -32,6 +32,7 @@ class DisplayDrawer:
         self._icon_thermo_high = load_icon("thermometer-chevron-up.svg")
         self._icon_thermo_low = load_icon("thermometer-chevron-down.svg")
         self._icon_home_energy = load_icon("home-lightning-bolt.svg")
+        self._icon_plant_moisture = load_icon("water-percent.svg")
 
         with open("icons-meta.json", "r") as f:
             self._icons = json.load(f)
@@ -52,6 +53,7 @@ class DisplayDrawer:
         x_pos = 5
         x_pos = self._draw_low_temperature(image, draw, x_pos)
         x_pos = self._draw_high_temperature(image, draw, x_pos)
+        x_pos = self._draw_plant_moisture(image, draw, x_pos)
 
         x_pos = 13
         x_pos = self._draw_forecast(image, draw, x_pos)
@@ -62,6 +64,14 @@ class DisplayDrawer:
 
         logger.info("Done")
         return image
+
+    def _draw_plant_moisture(self, image, draw, x_pos):
+        image.paste(self._icon_plant_moisture, (x_pos, 2))
+        x_pos += 25
+        moisture = "--" if math.isnan(self.data.soil_moisture) else self.data.soil_moisture
+        draw.text((x_pos, 5), f"{moisture}%", font=self._font, fill=0)
+        x_pos += int(draw.textlength(f"{moisture}%", font=self._font))
+        return x_pos
 
     def _draw_low_temperature(self, image, draw, x_pos):
         image.paste(self._icon_thermo_low, (x_pos, 2))

@@ -33,7 +33,15 @@ class DisplayUpdater:
         self._get_forecast()
         self._get_daily_low_high()
         self._get_daily_energy_usage()
+        self._get_soil_moisture()
         logger.info("Done")
+
+    def _get_soil_moisture(self):
+        r = self._session.get(f"{self.ha_url}/states/sensor.soil_moisture")
+        if r.status_code == requests.codes.ok:
+            self.data.soil_moisture = float(r.json()['state'])
+        else:
+            logger.warning("Couldn't get soil moisture -- %d", r.status_code)
 
     def _get_electric_cost(self):
         r = self._session.get(f"{self.ha_url}/states/sensor.comed_5_minute_price")
