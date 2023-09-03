@@ -66,7 +66,7 @@ class DisplayUpdater:
                 today = datetime.datetime.today()
                 for point in (0, 1):
                     if datetime.datetime.fromisoformat(data[point]['datetime']).date() == datetime.datetime.today().date():
-                        if data[point]['daytime']:
+                        if data[point]['is_daytime']:
                             self.data.day_lowhigh[1] = data[point]['temperature']
                             self.data.day_lowhigh_date = today
                         else:
