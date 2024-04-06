@@ -53,8 +53,12 @@ class DisplayUpdater:
     def _get_forecast(self):
         r = self._session.get(f"{self.ha_url}/states/weather.kpwk_hourly")
         if r.status_code == requests.codes.ok:
-            data = r.json()['attributes']['forecast']
-            self.data.forecast = data[:3]
+            attributes = r.json()['attributes']
+            if "forecast" in attributes:
+                data = attributes['forecast']
+                self.data.forecast = data[:3]
+            else:
+                logger.warning("Couldn't get forecast info -- No forecast in attributes?", r.status_code)
         else:
             logger.warning("Couldn't get forecast info -- %d", r.status_code)
 
