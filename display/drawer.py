@@ -122,8 +122,7 @@ class DisplayDrawer:
     def _draw_electric_cost(self, image, draw, x_pos):
         image.paste(self._icon_lightning, (x_pos, 130))
         x_pos += 22
-        draw.text((x_pos, 133), f"{
-                  self.data.electric_cost:.1f}¢", font=self._font, fill=0)
+        draw.text((x_pos, 133), f"{self.data.electric_cost:.1f}¢", font=self._font, fill=0)
         x_pos += int(draw.textlength(
             f"{self.data.electric_cost:.1f}¢", font=self._font))
         x_pos += 10
@@ -132,8 +131,7 @@ class DisplayDrawer:
     def _draw_energy_usage(self, image, draw, x_pos):
         image.paste(self._icon_home_energy, (x_pos, 130))
         x_pos += 25
-        draw.text((x_pos, 133), f"{
-                  self.data.daily_energy:.2f} kWh", font=self._font, fill=0)
+        draw.text((x_pos, 133), f"{self.data.daily_energy:.2f} kWh", font=self._font, fill=0)
         x_pos += int(draw.textlength(
             f"{self.data.daily_energy:.2f} kWh", font=self._font))
         x_pos += 10
