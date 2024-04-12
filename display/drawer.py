@@ -98,23 +98,25 @@ class DisplayDrawer:
     def _draw_forecast(self, image, draw, x_pos):
         for hour in self.data.forecast:
             forecast_time = datetime.datetime.fromisoformat(hour['datetime'])
+            if forecast_time < (datetime.datetime.now(datetime.timezone.utc) - datetime.timedelta(hours=1)):
+                continue
             try:
                 draw.rounded_rectangle(((x_pos, 30), (x_pos + 70, 120)), 7)
             except AttributeError:
                 draw.rectangle(((x_pos, 30), (x_pos + 70, 120)))
-            draw.text((x_pos + (70/2), 32),
+            draw.text((x_pos + (70 / 2), 32),
                       f"{forecast_time:%l %p}", font=self._font, fill=0, anchor="ma")
-            draw.text((x_pos + 3 + (70/2), 120),
+            draw.text((x_pos + 3 + (70 / 2), 120),
                       f"{hour['temperature']}°", font=self._font, fill=0, anchor="md")
             icon = self._get_icon(hour['condition'])
             if icon is not None:
                 icon_image = load_icon(f"{icon}.svg", 50, 50)
-                image.paste(icon_image, (int(x_pos+(70/2)-(50/2)), 50))
+                image.paste(icon_image, (int(x_pos + (70 / 2) - (50 / 2)), 50))
             else:
                 logger.warning("Couldn't find image for %s", hour['condition'])
 
             x_pos += 82
-            if x_pos >= (self.height-82):
+            if x_pos >= (self.height - 82):
                 break
 
         return x_pos
